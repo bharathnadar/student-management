@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import "./App.css";
 
-const API_URL = "https://student-management-backend-c8wr.onrender.com";
+const API_URL = "https://student-management-backend-c8wr.onrender.com/api/students";
 
 const App = () => {
   const [students, setStudents] = useState([]);
