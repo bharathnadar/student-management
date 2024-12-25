@@ -1,0 +1,110 @@
+/* App.css */
+body {
+  font-family:sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(1, 1, 1, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color:rgb(0, 156, 253);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form>button {
+  width: 70%;
+}
+
+button:hover {
+  background-color: #055ebe;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 4px;
+  text-align: left;
+}
+
+th {
+  background-color: #ded9d9;
+}
+
+td {
+  background-color: #fff;
+}
+
+/* td>button{
+  background-color: #ee0909;
+  text-align: center;
+}
+
+td>button:hover{
+  background-color: #920505;
+} */
+
+.trash-icon {
+  margin-left: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.trash-icon:hover {
+  color: darkred;
+}
+
+.data-msg {
+  text-align: center;
+  color: #ee0909;
+}
